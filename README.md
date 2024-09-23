@@ -1,4 +1,4 @@
-Here's a complete `README.md` file for your project:
+
 
 ```markdown
 # 🎨 Interactive Image Processing
