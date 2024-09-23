@@ -1,6 +1,4 @@
 // imageProcessing.js
-const originalCtx = originalCanvas.getContext('2d');
-const processedCtx = processedCanvas.getContext('2d');
 
 // Process the image based on threshold (black/white)
 function processImage(threshold) {

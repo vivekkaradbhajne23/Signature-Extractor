@@ -13,8 +13,13 @@
 
     <div class="container">
         <!-- Upload Section -->
-        <input type="file" id="uploadImage" accept="image/*" class="form-control">
-        
+        <div class="upload-container">
+            <input type="file" id="uploadImage" accept="image/*" class="form-control" placeholder="Upload Image Here">
+            <div class="drop-zone" id="dropZone">
+                <p>Drag and drop an image here, or click to select one.</p>
+            </div>
+        </div>
+
         <!-- Controls -->
         <div class="controls" style="display: none;">
             <label for="thresholdSlider">Threshold Value: <span id="thresholdDisplay">150</span></label>
@@ -47,6 +52,7 @@
         </div>
     </div>
 
+    <script src="js/canvasContexts.js"></script>
     <script src="js/imageProcessing.js"></script>
     <script src="js/filters.js"></script>
     <script src="js/ui.js"></script>
